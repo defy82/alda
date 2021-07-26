@@ -6,4 +6,10 @@ public class Car {
 	String color;
 	String regNumber;
 	
+	//Constructor for the car
+	public Car(String regNumber, String color) {
+		this.regNumber = regNumber;
+		this.color = color;
+	}
+	
 }
