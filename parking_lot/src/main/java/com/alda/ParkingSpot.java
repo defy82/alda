@@ -33,4 +33,8 @@ public class ParkingSpot {
 		parkedCar = car;
 	}
 	
+	public void clear() {
+		allocated = false;
+		parkedCar = null;
+	}
 }
